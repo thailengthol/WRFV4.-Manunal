@@ -6,3 +6,9 @@
 
 ### 3. WPS Compilation
 
+### 4. Data Pre-Processing
+
+### 5. Data Visualization
+
+### 6. Data Post-Processing
+

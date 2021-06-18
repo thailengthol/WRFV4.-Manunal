@@ -1,5 +1,4 @@
 set -x #echo on
-
 cd $DIR
 
 wget https://sourceforge.net/projects/libpng/files/libpng12/older-releases/1.2.50/libpng-1.2.50.tar.gz

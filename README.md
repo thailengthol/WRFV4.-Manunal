@@ -9,8 +9,13 @@ All the requred libraries and its installation process was written in the shell 
 * 4lib.sh : to download and install NCL and Gfortran
 * getwrf.sh : to download WRF&WPS from GitHub Repository, and WRF cordex
 
-
 ## 2. WRF Compilation
+You need to make sure that you have installed all the required libraries correctly, especially NetCDF library.
+After that start compiling WRF with following steps and procedure.
+### a. extracting WRF cordex
+* tar xvfz WRFV4.0_CORDEX.tar.gz
+* Edit the **Registry/Registry.EM** and add the line include * *registry.cordex* * after the line * *‘registry.em_shared_collection’* *
+
 
 ## 3. WPS Compilation
 

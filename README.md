@@ -15,7 +15,8 @@ After that start compiling WRF with following steps and procedure.
 * tar xvfz WRFV4.0_CORDEX.tar.gz
 * Edit the **Registry/Registry.EM** and add the line include *'registry.cordex'* after the line *‘registry.em_shared_collection’*
 * configure the WRF compilation:
-*   GNC(gfortran/gcc) 34(dmpar)
+  - GNC(gfortran/gcc) = 34(dmpar)
+  - compile for nesting = 1-basic
 
 
 ## 3. WPS Compilation

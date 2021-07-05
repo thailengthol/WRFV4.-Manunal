@@ -1,5 +1,5 @@
 ###############################################################################################################################
-export DIR=/home/thaileng/wrf-cordex/libraries
+export DIR=/home/thaileng/wrf-cordex/libraries/
 export CC=gcc
 export CXX=g++
 export FC=gfortran

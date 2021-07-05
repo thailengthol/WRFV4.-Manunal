@@ -9,7 +9,7 @@ All the requred libraries and its installation process was written in the shell 
 * 4lib.sh : to download and install NCL and Gfortran
 * getwrf.sh : to download WRF&WPS from GitHub Repository, and WRF cordex
 
-## 2. WRF Compilation
+## 2. WRF& WPS Compilation
 You need to make sure that you have installed all the required libraries correctly, especially NetCDF library.
 After that start compiling WRF with following steps and procedure.
 * tar xvfz WRFV4.0_CORDEX.tar.gz
@@ -26,8 +26,14 @@ After that start compiling WRF with following steps and procedure.
   -  real.exe real data initialization
   -  ndown.exe one way nesting
   -  tc.exe for tc bogusing (serial only)
-
-## 3. WPS Compilation
+ * Inside WPS/ directory type: 
+  -  ./configure
+  -  select 3(dmpar) for compilation
+  -  ./compile >& log.compile
+  -  If successful, these executables should be in your WPS/ directory (and they are linked, respectively, from their source code directories):
+    -  geogrid.exe --> geogrid src geogrid.exe
+    -  ungrib.exe --> ungrib src ungrib.exe
+    -  metgrid.exe --> metgrid src metgrid.exe
 
 ## 4. Data Pre-Processing
 

@@ -22,18 +22,18 @@ After that start compiling WRF with following steps and procedure.
   - Edit the configure.wrf file by adding *- DCORDEXDIAG* after *- DNETCDF*
   - ./compile em_real >& log.compile
 * If the compilation is successful, you should find these executables in WRF/main (non zero size)
-  -  wrf.exe model executable
-  -  real.exe real data initialization
-  -  ndown.exe one way nesting
-  -  tc.exe for tc bogusing (serial only)
+  - wrf.exe model executable
+  - real.exe real data initialization
+  - ndown.exe one way nesting
+  - tc.exe for tc bogusing (serial only)
  * Inside WPS/ directory type: 
-  -  ./configure
-  -  select 3(dmpar) for compilation
-  -  ./compile >& log.compile
+  - ./configure
+  - select 3(dmpar) for compilation
+  - ./compile >& log.compile
 * If successful, these executables should be in your WPS/ directory (and they are linked, respectively, from their source code directories):
-  -  geogrid.exe --> geogrid src geogrid.exe
-  -  ungrib.exe --> ungrib src ungrib.exe
-  -  metgrid.exe --> metgrid src metgrid.exe
+  - geogrid.exe --> geogrid src geogrid.exe
+  - ungrib.exe --> ungrib src ungrib.exe
+  - metgrid.exe --> metgrid src metgrid.exe
 
 ## 4. Data Pre-Processing
 

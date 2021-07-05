@@ -30,7 +30,7 @@ After that start compiling WRF with following steps and procedure.
   - ./configure
   - select 3(dmpar) for compilation
   - ./compile >& log.compile
- * If successful, these executables should be in your WPS/ directory (and they are linked, respectively, from their source code directories):
+* If successful, these executables should be in your WPS/ directory (and they are linked, respectively, from their source code directories):
   - geogrid.exe --> geogrid src geogrid.exe
   - ungrib.exe --> ungrib src ungrib.exe
   - metgrid.exe --> metgrid src metgrid.exe

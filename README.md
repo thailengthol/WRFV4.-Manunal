@@ -14,7 +14,9 @@ You need to make sure that you have installed all the required libraries correct
 After that start compiling WRF with following steps and procedure.
 * tar xvfz WRFV4.0_CORDEX.tar.gz
 * Edit the **Registry/Registry.EM** and add the line include *'registry.cordex'* after the line *‘registry.em_shared_collection’*
-* configure the WRF compilation:
+* Inside WRF/ directory type: 
+  - ./clean
+  - ./configure, then choose
   - GNC(gfortran/gcc) = 34(dmpar)
   - compile for nesting = 1-basic
 * ./compile em_real >& log.compile

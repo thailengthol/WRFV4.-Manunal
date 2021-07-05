@@ -17,7 +17,12 @@ After that start compiling WRF with following steps and procedure.
 * configure the WRF compilation:
   - GNC(gfortran/gcc) = 34(dmpar)
   - compile for nesting = 1-basic
-
+* ./compile em_real >& log.compile
+* If the compilation is successful, you should find these executables in WRF/main (non zero size)
+  -  wrf.exe model executable
+  -  real.exe real data initialization
+  -  ndown.exe one way nesting
+  -  tc.exe for tc bogusing (serial only)
 
 ## 3. WPS Compilation
 

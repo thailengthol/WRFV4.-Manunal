@@ -19,7 +19,7 @@ After that start compiling WRF with following steps and procedure.
   - ./configure, then choose
   - GNC(gfortran/gcc) = 34(dmpar)
   - compile for nesting = 1-basic
-  - Edit the configure.wrf file by adding **- DCORDEXDIAG** after **- DNETCDF**
+  - Edit the configure.wrf file by adding *- DCORDEXDIAG* after *- DNETCDF*
   - ./compile em_real >& log.compile
 * If the compilation is successful, you should find these executables in WRF/main (non zero size)
   -  wrf.exe model executable

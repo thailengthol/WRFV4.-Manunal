@@ -1,7 +1,4 @@
 set -x #echo on
-#nohup lib1.sh > lib1.out 2>&1 &
-mkdir -p ~/wrf-cordex/libraries
-
 source ~/.bash_aliases
 
 sudo apt-get update
